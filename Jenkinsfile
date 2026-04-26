@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        HARBOR_ADDR = "192.168.10.10"
+        HARBOR_ADDR = "192.168.47.3"
         HARBOR_PROJECT = "cicd"
         IMAGE_NAME = "java-demo"
         IMAGE_TAG = "${BUILD_NUMBER}"
