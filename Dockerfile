@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM eclipse-temurin:8-jre-jammy
 WORKDIR /app
 COPY target/cicd-java-demo-1.0.jar app.jar
 EXPOSE 8080
