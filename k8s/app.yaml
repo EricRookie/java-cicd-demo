@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: java-demo
-        image: 192.168.10.10/cicd/java-demo:1
+        image: 192.168.47.3/cicd/java-demo:1
         ports:
         - containerPort: 8080
 ---
